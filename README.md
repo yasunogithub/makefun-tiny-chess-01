@@ -1,9 +1,14 @@
 # makefun-tiny-chess-01
 
-An original chess engine in 4 KB of Python for make.fun's tiny-chess-01.
+[![tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/yasunogithub/makefun-tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/yasunogithub/makefun-tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01)
 
-`main.py` (3,987 bytes) is the whole engine: an lzma-packed payload with
-its unpacker, as the rules allow. The unpacked source is a 0x88-board
+An original chess engine in 4 KB of Python for [make.fun's tiny-chess-01](https://make.fun/bounty/tiny-chess-01).
+
+`main.py` (3,869 bytes) is the whole engine: an lzma-packed payload with
+its unpacker, as the rules allow, packed from `min.py` with the kit's
+`makefun compress`. The unpacked source is a 0x88-board
 negamax engine written for this competition:
 
 - alpha-beta search with a transposition table, iterative deepening to a
